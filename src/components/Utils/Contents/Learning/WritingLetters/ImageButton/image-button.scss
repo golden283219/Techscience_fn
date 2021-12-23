@@ -1,0 +1,10 @@
+.image-btn{
+    width: fit-content;
+    cursor: pointer;    
+    &:hover{
+        transform: scale(1.1);
+    }
+    img{
+        max-width: 100%;
+    }
+}

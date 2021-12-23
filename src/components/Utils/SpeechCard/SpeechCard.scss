@@ -1,0 +1,25 @@
+.card-container {
+  height: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  .card {
+
+    .card-body {
+      color: #fff;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      word-break: break-all;
+
+      input {
+        height: 100%;
+        text-align: center;
+        font-size: 2rem;
+        outline: none;
+        width: 100%;
+      }
+    }
+  }
+}

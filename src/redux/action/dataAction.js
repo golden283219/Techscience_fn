@@ -1088,7 +1088,8 @@ export const _getSpeeches = (criteria, speechId) => {
 		if (!!error) {
 			return setResult();
 		}
-
+		console.log('data: ', data);
+		
 		return dispatch({ type: SET_SPEECHES, payload: data.speeches });
 	});
 };

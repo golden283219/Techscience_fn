@@ -15,7 +15,7 @@ const DashboardHeader = () => {
 	};
 
 	const goTechscratch = () => {
-		window.open(`${ process.env.REACT_APP_SERVER_URI }/techscratch`, '_blank');
+		window.open(`/assets/techscratch`, '_blank');
 		return;
 	};
 

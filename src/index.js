@@ -6,6 +6,7 @@ import 'mdbreact/dist/css/mdb.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 if(process.env.NODE_ENV === 'production') serviceWorker.unregister();

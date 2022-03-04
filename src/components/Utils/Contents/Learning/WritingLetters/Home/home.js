@@ -20,13 +20,13 @@ const Home = (props)=> {
                 <Link to='/learning/writingletters/i'><button className="learn-more">I</button></Link> 
                 <Link to='/learning/writingletters/j'><button className="learn-more">J</button></Link>
                 <Link to='/learning/writingletters/k'><button className="learn-more">K</button></Link>
-                <Link to='/learning/writingletters/l'><button className="learn-more">L</button></Link> <br/> <br/>
+                <Link to='/learning/writingletters/l'><button className="learn-more">L</button></Link> <br/><br/>
                 <Link to='/learning/writingletters/m'><button className="learn-more">M</button></Link>
                 <Link to='/learning/writingletters/n'><button className="learn-more">N</button></Link> 
                 <Link to='/learning/writingletters/o'><button className="learn-more">O</button></Link>
                 <Link to='/learning/writingletters/p'><button className="learn-more">P</button></Link>
                 <Link to='/learning/writingletters/q'><button className="learn-more">Q</button></Link> 
-                <Link to='/learning/writingletters/r'><button className="learn-more">R</button></Link> <br/> <br/>
+                <Link to='/learning/writingletters/r'><button className="learn-more">R</button></Link> <br/><br/>
                 <Link to='/learning/writingletters/s'><button className="learn-more">S</button></Link>
                 <Link to='/learning/writingletters/t'><button className="learn-more">T</button></Link>
                 <Link to='/learning/writingletters/u'><button className="learn-more">U</button></Link>
@@ -34,7 +34,7 @@ const Home = (props)=> {
                 <Link to='/learning/writingletters/w'><button className="learn-more">W</button></Link>
                 <Link to='/learning/writingletters/x'><button className="learn-more">X</button></Link> <br/><br/>
                 <Link to='/learning/writingletters/y'><button className="learn-more">Y</button></Link> 
-                <Link to='/learning/writingletters/z'><button className="learn-more">Z</button></Link>
+                <Link to='/learning/writingletters/z'><button className="learn-more">Z</button></Link> <br/><br/>
             </div>
 
         </div> 

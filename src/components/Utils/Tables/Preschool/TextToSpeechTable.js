@@ -13,7 +13,7 @@ const TextToSpeechTable = ({ openDataModal, openConfirmModal, pageType }) => {
 	const newData = data && {
 		...data,
 		contents: data.contents && data.contents.map(item => {
-			const category = speeches.speeches.find(speech => speech.id === item.speechId).name;
+			const category = speeches?.speeches?.find(speech => speech.id === item.speechId)?.name;
 			return { ...item, category };
 		}),
 	};
